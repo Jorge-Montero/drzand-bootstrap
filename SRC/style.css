@@ -49,9 +49,11 @@
     transition: all .5s;
   } 
 .company-image {
-    color: Red;
+  text-shadow: #f30808;
+  font-family: cursive;
+    color: rgb(255, 255, 255);
     font-style: italic;
-    font-size: 35px;
+    font-size: 95px;
     padding: 15%;
     margin: 5%;
 } 
@@ -100,7 +102,9 @@
       border: none;
       border-radius: 10%;
     }
-    
+    #saturday-time {
+      color:darkorange;
+    }
     .dropdown  {
       position: relative;
       display: inline-block;
@@ -115,21 +119,21 @@
       z-index: 1;
     }
     
-    .dropdown-content a {
+    .dropdown-content-a {
       color: black;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
     }
     
-    .dropdown-content a:hover {background-color: #ddd;}
+    .dropdown-content-a:hover {background-color: #ddd;}
     
     .dropdown:hover .dropdown-content {display: block;}
     
     .dropdown:hover .dropbtn {background-color: #f30808;}
-    #baby-face {
+    .days-open {
         align-items: center;
-        margin-left: 38%;
+       
         
     }
     .cookies :hover{
@@ -143,6 +147,7 @@
        background-size: cover;
     }
     #sunday {
+      font-size: 25px;
       color: red;
     }
     #reviews {
@@ -228,17 +233,18 @@
     }
     .profile {
       opacity: 0.8;
-      background-image: url("https://www.cdchk.org/wp-content/uploads/cdc-dental-clinic-1000x500.jpg");
+     /*background-image: url("https://www.cdchk.org/wp-content/uploads/cdc-dental-clinic-1000x500.jpg");*/
       /*background-image: url("https://blog.denshine.com/wp-content/uploads/2017/10/Teeth-Extraction-750x400.jpg");
       */
       width: 100%;
       height: 100%;
-      background-color: black;
+      background-color: transparent;
       background-position: center;
       background-size: cover;
       transition: all .5s;
   }
   .profile-1 {
+    table-layout: ;
     color:black;
     width: 10%;
     height: 50px;
@@ -247,12 +253,11 @@
     transform: scale(1.2);
   
   }
-  tr {
+  /*tr-2 {
     flex-direction: row-reverse;
     display: inline-flex;
     align-content: center;
-    
-  }
+  }*/
   #primary {
     margin: 20px;
     padding: 20px;
@@ -268,6 +273,12 @@
     color: yellow;
     border-style: ridge;
   }
+  table, th, td {
+    border: 1px solid black;
+  }
+  .table-dr  {
+    border-radius: 35%;
+  }
   td {
     font-weight: bolder;
     font-weight: 800;
@@ -277,16 +288,28 @@
     border-radius: 20%;
   }
   #dr-quote {
+    
+    align-items: center;
     text-decoration-line: underline;
     text-decoration-color: cornsilk;
     text-shadow: cornsilk;
-    font-weight: 900;
-    display: inline-flex;
+    
+    
+    display: grid;
     font-size: 55px;
       color:black;
-      margin: 2%;
+      margin: 25%;
       padding: 10%;
-    border-radius: 95%;
+    border-radius: 45%;
     background-color:transparent;
-  
+  }
+  #assistant-quote {
+    width: auto;
+    color: #f30808;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    font-size: 70px;
+    background-color: rgb(99, 4, 99);
+    border-style: ridge;
   }
