@@ -72,10 +72,9 @@
     transition: all .5s;
   }
   /*.background:hover .box,*/
-  .background:focus .box {
+  /*.background:focus .box {
     transform: scale(1.2);
-  
-  }
+  }*/
   hr {
     background-color: red;
     color: red;
@@ -83,11 +82,12 @@
   }
    /*Red until confirmed*/
   #book {
+    font-size: 35px;
     color:red;
     margin-top: 2%;
     text-align: right;
-    align-content: flex-end;
-    display: flex;
+    position: relative;
+    display: inline-block;
   }
   .logo {
     width: 75px;
@@ -139,8 +139,6 @@
     .dropdown:hover .dropbtn {background-color: #f30808;}
     .days-open {
         align-items: center;
-       
-        
     }
     .cookies :hover{
       background-color:rgb(192, 185, 185);
@@ -261,10 +259,10 @@
     width: 10%;
     height: 5px;
   }
-  /*
+  
   .pro-box:focus .profile {
     transform: scale(1.2);
-  }*/
+  }
   /*tr-2 {
     flex-direction: row-reverse;
     display: inline-flex;
@@ -286,7 +284,7 @@
     border-style: ridge;
   }
   table, th, td {
-    border: 1px solid transparent;
+    border: 1px groove grey;
   }
   .table-dr  {
     border-radius: 35%;
