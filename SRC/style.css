@@ -1,7 +1,13 @@
+@media only screen and (max-width: 360px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 .disabled :hover{
     font-size: 35px; 
     text-align: right; 
-    position: right;
+    align-items: center;
     height: 250px;
     width: 250px; 
   }
@@ -49,8 +55,7 @@
     transition: all .5s;
   } 
 .company-image {
-  text-shadow: #f30808;
-  font-family: cursive;
+    font-family: cursive;
     color: rgb(255, 255, 255);
     font-style: italic;
     font-size: 95px;
@@ -58,7 +63,7 @@
     margin: 5%;
 } 
   .box {
-    background-image: url("image$/Travel-or-Stay-Lake.jpg");
+    /*background-image*/
      width: 100%;
     height: 100%;
     background-color: lightblue;
@@ -81,7 +86,8 @@
     color:red;
     margin-top: 2%;
     text-align: right;
-    position: right;
+    align-content: flex-end;
+    display: flex;
   }
   .logo {
     width: 75px;
@@ -185,13 +191,16 @@
   .testimonials:focus .first-testimonial {
     transform: scale(1.2);
   }
+  /*
     .questions {
       display: grid;
       grid-template: minmax(20px) 1fr;
     }
+  
     .inputs {
       size: 30px;
     }
+     */
     #brush {
      
       align-content: center;
@@ -199,12 +208,15 @@
       height: 200px;
      /* zoom:100%;*/
     }
+    h2 {
+      font-size: 48px;
+    }
     #quote-1 {
       font-style: italic;
       font-size: 18px;
       color: red;
-      margin: 2%;
-      padding: 10%;
+     margin: auto;
+     padding: 65px;
     }
     #quote-2 {
       height: 300px;
@@ -244,15 +256,15 @@
       transition: all .5s;
   }
   .profile-1 {
-    table-layout: ;
+    table-layout: initial;
     color:black;
     width: 10%;
-    height: 50px;
+    height: 5px;
   }
+  /*
   .pro-box:focus .profile {
     transform: scale(1.2);
-  
-  }
+  }*/
   /*tr-2 {
     flex-direction: row-reverse;
     display: inline-flex;
@@ -274,7 +286,7 @@
     border-style: ridge;
   }
   table, th, td {
-    border: 1px solid black;
+    border: 1px solid transparent;
   }
   .table-dr  {
     border-radius: 35%;
@@ -288,18 +300,14 @@
     border-radius: 20%;
   }
   #dr-quote {
-    
     align-items: center;
     text-decoration-line: underline;
     text-decoration-color: cornsilk;
-    text-shadow: cornsilk;
-    
-    
     display: grid;
     font-size: 55px;
-      color:black;
-      margin: 25%;
-      padding: 10%;
+    color:black;
+    margin: 25%;
+    padding: 10%;
     border-radius: 45%;
     background-color:transparent;
   }
