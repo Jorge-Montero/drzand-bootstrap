@@ -1,6 +1,6 @@
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  [class*="col-"] {
+  [class*="col-6"] {
     width: 100%;
   }
 }
@@ -44,7 +44,7 @@
   }
   .background {
     align-items: center;
-    height: 420px;
+    height: 100%;
     width: 100%;
   } 
   #brush {
@@ -71,10 +71,10 @@
     background-size: cover;
     transition: all .5s;
   }
-  /*.background:hover .box,*/
-  /*.background:focus .box {
+  .background:hover .box,
+  .background:focus .box {
     transform: scale(1.2);
-  }*/
+  }
   hr {
     background-color: red;
     color: red;
