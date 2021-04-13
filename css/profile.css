@@ -107,6 +107,16 @@ h2 {
 #education {
   border: transparent;
 }
+table {
+    border: 2px black;
+}
+th {
+    border: 2px double green;
+}
+td {
+    border: 2px dashed black;
+}
+
 /*
 .flexbox-container-1 {
     display: flexbox;
@@ -155,12 +165,3 @@ h2 {
   .flexbox-item:hover {
     color: red;
   }*/
-table {
-    border: 2px black;
-}
-th {
-    border: 2px double green;
-}
-td {
-    border: 2px dashed black;
-}
