@@ -243,21 +243,23 @@
     }
     .profile {
       opacity: 0.8;
+      width: 400px;
+      height: 260px;
+      padding-left: 200px;
+      align-items: center;
      /*background-image: url("https://www.cdchk.org/wp-content/uploads/cdc-dental-clinic-1000x500.jpg");*/
       /*background-image: url("https://blog.denshine.com/wp-content/uploads/2017/10/Teeth-Extraction-750x400.jpg");
       */
-      width: 100%;
-      height: 100%;
-      background-color: transparent;
-      background-position: center;
-      background-size: cover;
-      transition: all .5s;
-  }
+    }
   .profile-1 {
-    table-layout: initial;
-    color:black;
-    width: 10%;
-    height: 5px;
+   width: 400px;
+  }
+  #doc-2 {
+    padding-left: 520px;
+  }
+  #profile-2 {
+    padding-left: 520px;
+
   }
   
   .pro-box:focus .profile {
