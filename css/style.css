@@ -101,6 +101,7 @@ hr {
 }
 .nav-bar {
   text-align: center;
+  width: 100%;
   /* grid-template-rows:  minmax(100px, 15%) 1fr;*/
 }
 .dropbtn {
@@ -163,6 +164,11 @@ hr {
 #sunday {
   font-size: 25px;
   color: red;
+}
+.profilePic {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
 }
 #doc1 {
   width: 100%;
