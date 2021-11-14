@@ -144,6 +144,12 @@ hr {
 .days-open {
   align-items: center;
 }
+.tableImage {
+  width: 185px;
+  height: 81px;
+  border-radius: 25%;
+  object-fit: cover;
+}
 .cookies :hover{
   background-color:rgb(192, 185, 185);
   color: yellow;
